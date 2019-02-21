@@ -1,6 +1,6 @@
 <div class="ui card">
   <div class="image">
-    <img src="https://robohash.org/<%= @person.avatar %>?set=set2" />
+    <img class="image" src="https://robohash.org/<%= @person.avatar %>?set=set2" />
   </div>
   <div class="content">
   <p class="header">
@@ -17,6 +17,4 @@
    <%= link_to 'Edit', edit_person_path(@person), class: "ui button blue" %> 
    <%= link_to 'Back', people_path, class: "ui button" %>
   </div>
-
-
 </div>
